@@ -1,6 +1,6 @@
 <?php
 
-namespace Djunehor\CherryPickMigrate;
+namespace Djunehor\CherryPick;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class CherryPickMigrateServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function boot() {
-		;
+
 	}
 
 	/**
