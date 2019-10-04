@@ -1,0 +1,27 @@
+{
+    "name": "djunehor/laravel-custom-migration",
+    "description": "Specify migration file or directory to run, revert specific migrations.",
+    "keywords": ["migration","migrate","database","specific", "revert", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zacchaeus Bolaji",
+            "email": "djunehor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Djunehor\\CherryPick\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Djunehor\\CherryPick\\CherryPickMigrateServiceProvider"
+            ]
+        }
+    }
+}
