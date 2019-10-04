@@ -1,6 +1,6 @@
 <?php
 
-namespace Djunehor\CherryPickMigrate\Commands;
+namespace Djunehor\CherryPick\App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

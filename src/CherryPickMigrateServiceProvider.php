@@ -21,7 +21,7 @@ class CherryPickMigrateServiceProvider extends ServiceProvider {
 	 */
 	public function register() {
 		$this->commands( [
-			\Djunehor\CherryPickMigrate\Commands\CherryPickMigrateCommand::class,
+			\Djunehor\CherryPick\App\Console\Commands\CherryPickMigrateCommand::class,
 		] );
 	}
 }
