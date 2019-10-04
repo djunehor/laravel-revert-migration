@@ -1,6 +1,6 @@
 {
-    "name": "djunehor/laravel-custom-migration",
-    "description": "Specify migration file or directory to run, revert specific migrations.",
+    "name": "djunehor/laravel-revert-migration",
+    "description": "Specify migration file or directory to run. Revert specific migrations.",
     "keywords": ["migration","migrate","database","specific", "revert", "laravel"],
     "type": "library",
     "license": "MIT",

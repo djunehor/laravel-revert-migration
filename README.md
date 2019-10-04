@@ -1,6 +1,6 @@
-# Laravel CherryPick DB Migrate
+# Laravel Revert DB Migrate
 
-Laravel CherryPick DB Migrate gives you the option to run a specific migration or run migrations in a specified folder. it also allows you revert specific migration(s)
+Laravel Revert DB Migrate gives you the option to run a specific migration or run migrations in a specified folder. it also allows you revert specific migration(s)
 
 - [Laravel CherryPick DB Migrate](#laravel-custom-db-migrate)
     - [Installation](#installation)
@@ -18,7 +18,7 @@ Laravel CherryPick DB Migrate gives you the option to run a specific migration o
 You can install the package via composer:
 
 ```shell
-composer require djunehor/laravel-custom-migrate
+composer require djunehor/laravel-revert-migrate
 ```
 
 ### Laravel 5.5 and above
