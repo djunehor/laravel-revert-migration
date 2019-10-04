@@ -18,7 +18,7 @@ Laravel Revert DB Migrate gives you the option to run a specific migration or ru
 You can install the package via composer:
 
 ```shell
-composer require djunehor/laravel-revert-migrate
+composer require djunehor/laravel-revert-migration
 ```
 
 ### Laravel 5.5 and above
